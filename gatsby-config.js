@@ -45,7 +45,7 @@ module.exports = {
           // The rest api route prefix that your WordPress site is using.
           // Sometimes this is modified by WordPress plugins.
           // If not set, it uses the default of "wp-json"
-          restApiRoutePrefix: "wp-json",
+          restApiRoutePrefix: "?rest_route=/",
           // Indicates whether the site is hosted on wordpress.com.
           // If false, then the assumption is made that the site is self hosted.
           // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
